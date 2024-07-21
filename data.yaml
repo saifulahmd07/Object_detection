@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['fresh_apple', 'rotten_apple']
+
+roboflow:
+  workspace: ahmad-saiful-jamil
+  project: uas_ai-gwbdo
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ahmad-saiful-jamil/uas_ai-gwbdo/dataset/1
